@@ -7,7 +7,10 @@ page_class: home
 
 <section class="hero">
   <div class="hero-court" aria-hidden="true">
-    <span></span><span></span><span></span>
+    <span class="court-singles"></span>
+    <span class="court-service-lines"></span>
+    <span class="court-center-service"></span>
+    <span class="court-net"></span>
   </div>
   <div class="hero-inner">
     <p class="eyebrow hero-eyebrow">Community court booking</p>
@@ -64,15 +67,16 @@ page_class: home
       <p>Courtsy asks only for the details people need to book. Your free court settings live securely in the link, so there is no dashboard to maintain.</p>
       <a class="text-link" href="https://courtsy.live/create">Try the setup</a>
     </div>
-    <div class="image-placeholder setup-placeholder reveal reveal-delay-1" role="img" aria-label="Placeholder for a screenshot of the Courtsy court setup screen">
-      <div class="placeholder-bar"><span></span><span>courtsy.live/create</span></div>
-      <div class="placeholder-content">
-        <p class="placeholder-label">Product image placeholder</p>
-        <strong>Court setup</strong>
-        <div class="mock-field"></div>
-        <div class="mock-field short"></div>
-        <div class="mock-days"><i></i><i></i><i></i><i></i><i></i></div>
-      </div>
+    <div class="product-media setup-media reveal reveal-delay-1">
+      <img
+        class="setup-image"
+        src="{{ '/assets/images/court-setup.webp' | relative_url }}"
+        alt="Courtsy court setup form for North Creek Heights showing timezone, booking limits, and open hours"
+        width="1600"
+        height="1309"
+        loading="lazy"
+        decoding="async"
+      >
     </div>
   </div>
 </section>
@@ -85,16 +89,16 @@ page_class: home
       <p>Players see open 30-minute time slots, who has reserved a time, and whether a booking has been flagged as abandoned.</p>
       <p>Passwordless email sign-in keeps booking easy while confirmation and cancellation links keep everyone informed.</p>
     </div>
-    <div class="image-placeholder schedule-placeholder reveal reveal-delay-1" role="img" aria-label="Placeholder for a screenshot of a daily Courtsy court schedule">
-      <div class="phone-frame">
-        <div class="phone-top"></div>
-        <p class="placeholder-label">Product image placeholder</p>
-        <strong>Today&apos;s schedule</strong>
-        <div class="mock-slot"><span>4:00</span><i>Available</i></div>
-        <div class="mock-slot active"><span>4:30</span><i>Book</i></div>
-        <div class="mock-slot"><span>5:00</span><i>Available</i></div>
-        <div class="mock-slot reserved"><span>5:30</span><i>Reserved</i></div>
-      </div>
+    <div class="product-media schedule-media reveal reveal-delay-1">
+      <img
+        class="schedule-image"
+        src="{{ '/assets/images/court-schedule.webp' | relative_url }}"
+        alt="Courtsy mobile schedule for Northcreek Heights showing available, current, and reserved court times"
+        width="1080"
+        height="1920"
+        loading="lazy"
+        decoding="async"
+      >
     </div>
   </div>
 </section>
