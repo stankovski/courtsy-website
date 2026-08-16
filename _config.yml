@@ -1,0 +1,14 @@
+title: Courtsy
+description: Free, simple court booking for communities.
+url: "https://stankovski.github.io"
+baseurl: "/courtsy-website"
+repository: stankovski/courtsy-website
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

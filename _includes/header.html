@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Courtsy home">
+      <img src="{{ '/assets/images/courtsy-ball.webp' | relative_url }}" alt="" width="36" height="36">
+      <span>Courtsy</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/#how-it-works' | relative_url }}">How it works</a>
+      <a href="{{ '/#features' | relative_url }}">Features</a>
+      <a href="{{ '/pricing/' | relative_url }}"{% if page.url == '/pricing/' %} aria-current="page"{% endif %}>Pricing</a>
+    </nav>
+    <a class="button button-small header-action" href="https://courtsy.live/create">Create a court</a>
+  </div>
+</header>
