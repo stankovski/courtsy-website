@@ -1,7 +1,7 @@
 title: Courtsy
 description: Free, simple court booking for communities.
-url: "https://stankovski.github.io"
-baseurl: "/courtsy-website"
+url: "https://courtsyapp.com"
+baseurl: ""
 repository: stankovski/courtsy-website
 
 sass:
