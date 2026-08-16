@@ -13,4 +13,6 @@ Open `http://127.0.0.1:4000/courtsy-website/`.
 
 ## GitHub Pages
 
-In the repository settings, set Pages to deploy from the `main` branch and the repository root.
+The `Deploy GitHub Pages` workflow builds and publishes the site after every push to `main`. It can also be run manually from the Actions tab.
+
+In the repository settings, open **Pages** and set **Source** to **GitHub Actions**. The published site is `https://courtsyapp.com`.

@@ -873,14 +873,7 @@ p {
   }
 
   .hero-court {
-    --court-line-width: 4px;
-    right: -150px;
-    bottom: -95px;
-    width: 255px;
-  }
-
-  .hero::before {
-    background: linear-gradient(90deg, var(--court) 0%, var(--court) 68%, rgba(50, 114, 82, 0.88) 80%, transparent 100%);
+    display: none;
   }
 
   .hero-facts {
