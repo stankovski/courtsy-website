@@ -699,7 +699,7 @@ p {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto auto minmax(0, 1fr);
   align-items: center;
   gap: 30px;
 }
@@ -713,7 +713,6 @@ p {
 .footer-inner nav {
   display: flex;
   flex-wrap: wrap;
-  justify-self: end;
   justify-content: flex-end;
   gap: 22px;
   font-size: 0.78rem;
