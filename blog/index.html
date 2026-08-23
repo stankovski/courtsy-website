@@ -1,0 +1,31 @@
+---
+layout: default
+title: Courtsy Guides
+seo_title: Community Facility Booking Guides
+description: Practical guides for choosing and operating court, field, and shared-facility booking software.
+permalink: /blog/
+page_class: blog
+---
+
+<section class="article-hero">
+  <div class="section-inner">
+    <p class="eyebrow">Courtsy guides</p>
+    <h1>Better decisions for shared spaces.</h1>
+    <p class="blog-intro">Practical, plainly sourced guidance for people evaluating court, field, and community facility booking software.</p>
+  </div>
+</section>
+
+<section class="blog-section">
+  <div class="section-inner">
+    <div class="blog-list">
+      {% for post in site.posts %}
+        <article class="blog-entry reveal">
+          <p class="eyebrow">{{ post.category | default: 'Guide' }}</p>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p>{{ post.description }}</p>
+          <p class="article-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
