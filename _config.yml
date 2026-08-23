@@ -3,6 +3,22 @@ description: Free, simple court booking for communities.
 url: "https://courtsyapp.com"
 baseurl: ""
 repository: stankovski/courtsy-website
+logo: /assets/images/courtsy-ball.webp
+image: /assets/images/court-setup.webp
+image_alt: Courtsy court setup screen
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+permalink: /blog/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
 sass:
   style: compressed
