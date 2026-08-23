@@ -20,16 +20,6 @@ page_class: about
   <div class="about-story-inner">
     <p class="about-opening">The idea for Courtsy came to me a long time ago, after one too many trips to a court that was already in use.</p>
 
-    <figure class="founder-portrait">
-      <img
-        src="{{ '/assets/images/about.png' | relative_url }}"
-        alt="Denis Stankovski, founder of Courtsy"
-        width="500"
-        height="500"
-      >
-      <figcaption>Denis Stankovski, Founder</figcaption>
-    </figure>
-
     <p>In the Pacific Northwest, dry days are precious. When the weather cooperates, neighborhood courts fill up fast. I would grab my rackets, make the walk to our community court, and find it occupied. With a busy schedule, waiting around for the next opening was rarely an option.</p>
 
     <p>I kept thinking: if only I knew before I left whether the court was busy. That small frustration became a bigger question. What if local communities had a simple way to organize the places they share?</p>
@@ -48,7 +38,16 @@ page_class: about
 
     <p>I hope Courtsy means fewer wasted walks, fewer awkward wait times, and more time spent outside with the people who make a place feel like home.</p>
 
-    <p class="about-signoff">Denis</p>
+    <figure class="founder-portrait">
+      <img
+        src="{{ '/assets/images/about.png' | relative_url }}"
+        alt="Denis Stankovski, founder of Courtsy"
+        width="500"
+        height="500"
+      >
+    </figure>
+
+    <p class="about-signoff">Denis Stankovski, Founder</p>
   </div>
 </article>
 
