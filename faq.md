@@ -104,5 +104,8 @@ For complete information, read the [Privacy Policy]({{ '/privacy/' | relative_ur
 - [Privacy Policy]({{ '/privacy/' | relative_url }})
 - [Refund and Cancellation Policy]({{ '/refunds-and-cancellations/' | relative_url }})
 - [Security at Courtsy]({{ '/security/' | relative_url }})
+- [Community court booking software]({{ '/community-court-booking-software/' | relative_url }})
+- [Field booking software]({{ '/field-booking-software/' | relative_url }})
+- [Court and field reservation software comparison]({{ '/blog/court-field-reservation-software-comparison/' | relative_url }})
 
 The policies control if this FAQ conflicts with them. Courtsy may update this FAQ as the service changes; the effective date above shows when it was last revised.
