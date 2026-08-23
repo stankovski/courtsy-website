@@ -18,7 +18,19 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
     <main id="main-content">
-      {{ content }}
+      {% if page.page_class == 'document' %}
+        <section class="document-hero">
+          <div class="section-inner">
+            <p class="eyebrow">Courtsy</p>
+            <h1>{{ page.title }}</h1>
+          </div>
+        </section>
+        <article class="document-content">
+          {{ content }}
+        </article>
+      {% else %}
+        {{ content }}
+      {% endif %}
     </main>
     {% include footer.html %}
     <script src="{{ '/assets/js/reveal.js' | relative_url }}" defer></script>
