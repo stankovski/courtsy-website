@@ -575,6 +575,18 @@ p {
   border-bottom: 1px solid var(--border);
 }
 
+.feature-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 28px;
+  fill: none;
+  stroke: var(--court-dark);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+
 .operations-section {
   padding-block: 130px;
   background: var(--court);
