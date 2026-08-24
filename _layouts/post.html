@@ -6,7 +6,7 @@ layout: default
   <div class="section-inner">
     <p class="eyebrow">{{ page.category | default: 'Guides' }}</p>
     <h1>{{ page.title }}</h1>
-    <p class="article-meta">By {{ page.author | default: site.title }} | {{ page.date | date: '%B %-d, %Y' }}</p>
+    <p class="article-meta">{{ page.date | date: '%B %-d, %Y' }}</p>
   </div>
 </section>
 
