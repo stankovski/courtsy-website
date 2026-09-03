@@ -3,7 +3,7 @@ layout: post
 title: Court and Field Reservation Software Compared
 seo_title: Court and Field Reservation Software Compared
 description: A practical comparison of Courtsy, CourtReserve, Playbypoint, RecDesk, CivicPlus, AllBooked, and Teamup for community facilities.
-date: 2026-08-23 09:00:00 -0700
+date: 2026-09-02 09:00:00 -0700
 author: Denis Stankovski, Founder of Courtsy
 category: Comparison guide
 og_type: article
@@ -77,7 +77,7 @@ The free plan includes a shareable court link and QR code, a daily mobile schedu
 
 ## How we researched this guide
 
-This guide was researched and updated on August 23, 2026. We reviewed Courtsy&apos;s live product, [pricing]({{ '/pricing/' | relative_url }}), [FAQ]({{ '/faq/' | relative_url }}), [privacy]({{ '/privacy/' | relative_url }}), and [security]({{ '/security/' | relative_url }}) pages. For other products, we reviewed each vendor&apos;s public product and pricing page linked above.
+For products other than Courtsy, we reviewed each vendor&apos;s public product and pricing page linked above.
 
 We compared published pricing, intended customer, booking scope, and the surrounding operational features a vendor describes. We did not create competitor accounts, run trials, contact sales, or test onboarding, support, performance, accessibility, security controls, or integrations. This is not an endorsement of any product, and vendor pages should be the source of truth for time-sensitive details.
 
